@@ -4,7 +4,7 @@ pipeline {
     FRONTEND_GIT = 'https://github.com/ngunq/tutorial-jenkins-frontend.git'
     FRONTEND_BRANCH = 'master'
     FRONTEND_IMAGE = 'ngunq/tutorial-jenkins-frontend'
-    FRONTEND_SERVER = '1.2.3.4'
+    FRONTEND_SERVER = '127.0.0.1'
     FRONTEND_SERVER_DIR = './app'
   }
   stages {
